@@ -10,8 +10,11 @@ const useFetch = url => {
 
   // get the data from the db.json file in the db folder
   useEffect(() => {
+    // the abort controller aids in performing a useEffect Cleanup by stopping the fetch request from occuring
+    const abortCont = new AbortController();
+
     setTimeout(() => {
-      fetch(url) /* url refers to the resources url */
+      fetch(url, { signal: abortCont.signal }) /* url refers to the resources url */
         .then(response => {
           /* if the resource url can't be reached output the error */
           if (!response.ok) {
@@ -26,10 +29,17 @@ const useFetch = url => {
           setError(null); /* prevents the error message from appearing when there is no error */
         })
         .catch(err => {
-          setIsPending(false); /* prevents the loading message from appearing */
-          setError(err.message); /* outputs error message to the screen */
+          if (err.name === "AbortError") {
+            console.log("fetch aborted");
+          } else {
+            setIsPending(false); /* prevents the loading message from appearing */
+            setError(err.message); /* outputs error message to the screen */
+          }
         });
     }, 1000);
+
+    // performs a useEffect Cleanup by aborting the fetch request
+    return () => abortCont.abort();
   }, [url]);
 
   return { data, isPending, error };
