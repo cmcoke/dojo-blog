@@ -13,34 +13,16 @@
       "id": 2
     },
     {
-      "title": "fscsc",
-      "body": "fscscx",
-      "author": "mario",
+      "title": "Hello World",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed velit luctus, sagittis turpis et, dictum ex. Proin imperdiet ex sit amet arcu pharetra, et semper metus imperdiet. In hac habitasse platea dictumst. Duis eu elit pellentesque, ullamcorper dui quis, egestas lectus. Cras commodo volutpat neque, sit amet tempor est ultrices nec. Nunc id nulla in ante vulputate aliquam. Nunc gravida eros eget lorem sagittis, eget volutpat massa consequat.",
+      "author": "me",
       "id": 3
     },
     {
-      "title": "cscsac",
-      "body": "cscscxcxc",
-      "author": "mario",
+      "title": "My new blog",
+      "body": " Nulla urna ex, dapibus nec iaculis non, sagittis nec purus. Sed aliquet gravida neque sit amet pulvinar. Quisque fringilla, nisl a convallis sollicitudin, velit felis lobortis mauris, non consequat nisi nulla eu nibh. Etiam fringilla diam molestie porta suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies ac purus fermentum viverra. Mauris vel ante malesuada, euismod sem quis, volutpat augue. Proin elementum, nulla et commodo dictum, augue elit tempus dolor, quis malesuada odio neque at nulla. Vestibulum aliquam elit turpis, a dapibus erat ultrices id. In faucibus convallis velit, vel suscipit libero faucibus eu. Vivamus laoreet nisl id massa fringilla, efficitur eleifend dolor molestie.\n\nMauris eu risus lorem. Vivamus quis facilisis ipsum. Etiam mollis pharetra dui, id luctus velit venenatis ac. Praesent congue metus in erat mollis, at viverra felis ullamcorper. Vestibulum ut tellus non neque porta tincidunt. Donec vitae nisl risus. Vivamus elementum arcu non neque bibendum molestie quis vitae ipsum. Donec luctus, justo sit amet laoreet elementum, arcu purus hendrerit eros, eu scelerisque leo mi sed massa. Vivamus posuere tortor metus, non congue massa maximus id. ",
+      "author": "me",
       "id": 4
-    },
-    {
-      "title": "cscscxcx",
-      "body": "fscscxcxc",
-      "author": "mario",
-      "id": 5
-    },
-    {
-      "title": "zsdvcxdcx",
-      "body": "gfscscvx",
-      "author": "mario",
-      "id": 6
-    },
-    {
-      "title": "hdgdsvdxv",
-      "body": "gegdvxcf234",
-      "author": "yoshi",
-      "id": 7
     }
   ]
 }
