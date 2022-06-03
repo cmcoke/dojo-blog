@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Create from "./Create";
 import BlogDetails from "./BlogDetails";
+import NotFound from "./NotFound";
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
             </Route>
             <Route path="/blogs/:id">
               <BlogDetails />
+            </Route>
+            {/* by using '*' we mean to match any other route. When using it, it must be placed at the bottom in order to prevent it from match the other stated routes /, /create, /blogs/:id  */}
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
